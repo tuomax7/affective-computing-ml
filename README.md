@@ -2,6 +2,9 @@
 
 This project uses a BERT-based model fine-tuned on the [GoEmotions dataset](https://github.com/google-research/google-research/tree/master/goemotions) to classify text into 28 emotion categories (27 emotions + Neutral), all running **locally** on your machine.
 
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/0bbef5ab-854b-4672-86b8-411980620cd3" />
+
+
 ## About
 
 - Powered by `logasanjeev/goemotions-bert`

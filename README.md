@@ -10,12 +10,12 @@ This project uses a BERT-based model fine-tuned on the [GoEmotions dataset](http
 - Multi-label emotion classification
 - Simple web UI with Gradio
 
-## 🔧 Installation
+## Installation
 
 ### 1. Clone or download this repository
 
 ```bash
-git clone repo
+git clone https://github.com/tuomax7/affective-computing-ml.git
 cd affective-computing-ml
 ```
 

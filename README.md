@@ -4,10 +4,9 @@ This project uses a BERT-based model fine-tuned on the [GoEmotions dataset](http
 
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/0bbef5ab-854b-4672-86b8-411980620cd3" />
 
-
 ## About
 
-- Powered by `logasanjeev/goemotions-bert`
+- This app is a complete copy of the `logasanjeev/goemotions-bert` HuggingFace project and this repo is only meant for running evaluations on that model locally.
 - Multi-label emotion classification
 - Simple web UI with Gradio
 

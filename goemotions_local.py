@@ -6,8 +6,8 @@ import gradio as gr
 # Load the tokenizer and model
 MODEL_NAME = "logasanjeev/goemotions-bert"
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, local_files_only=True)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, local_files_only=True)
 
 # GoEmotions labels (27 emotions + neutral)
 labels = [
